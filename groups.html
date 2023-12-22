@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/font/fontawesome-free-6.3.0-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/font/fontawesome-free-6.3.0-web/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+    <link  href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"> 
+</head>
+<body>
+    <div class="profile">
+        <div class="header__profile">
+            <div class="profile__logo">
+                <img src="./assets/css/img/Heigh=32, Text=Default, TextColor=Default.svg" alt="">
+            </div>
+            <ul class="profile__section">
+                <li class="profile__help">
+                    <i class='bx bx-info-circle'></i>
+                </li>
+                <li class="profile__notify">
+                    <i class='bx bx-bell' ></i>
+                </li>
+                <li class="profile__user">
+                    <div>
+                        <img src="./assets/css/img/user.jpeg" alt="">
+                        <p>Serati Ma</p>
+                    </div>
+                </li>
+                <li class="profile__langue">
+                    <i class="fa-solid fa-language"></i>
+                </li>
+            </ul>
+        </div>
+        <div class="main__profile">
+            <div class="grid">
+                <div class="row">
+                    <div class="sidebar col l-2" style="display: flex; padding: 0;">
+                        <div class="sidebar__container">
+                            <div class="sidebar__top">
+                                <div class="sidebar__item">
+                                    <div class="sidebar__item-left">
+                                        <img src="./assets/css/img/Dashboard.svg" alt="">
+                                        <span>Doashbar</span>
+                                    </div>
+                                    <div class="sidebar__item-right">
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="sidebar__item">
+                                        <div class="sidebar__item-left">
+                                            <i class='bx bx-user'></i>
+                                            <span>Account</span>
+                                        </div>
+                                        <div class="sidebar__item-right">
+                                            <i class='bx bx-chevron-down' ></i>
+                                        </div>
+                                    </div>
+                                    <div class="account__item" >
+                                        <div class="">User</div>
+                                        <div class="">Group</div>
+                                        <div class="">Usersform Activity</div>
+                                    </div>
+                                </div>
+                                <div class="sidebar__item">
+                                    <div class="sidebar__item-left">
+                                        <img src="./assets/css/img/supplier.svg" alt="">
+                                        <span>Supplier</span>
+                                    </div>
+                                    <div class="sidebar__item-right">
+                                    </div>
+                                </div>
+                                <div class="sidebar__item">
+                                    <div class="sidebar__item-left">
+                                        <img src="./assets/css/img/project.svg" alt="">
+                                        <span>Project</span>
+                                    </div>
+                                    <div class="sidebar__item-right">
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="sidebar__item">
+                                        <div class="sidebar__item-left">
+                                            <img src="./assets/css/img/product.svg" alt="">
+                                            <span>Product</span>
+                                        </div>
+                                        <div class="sidebar__item-right">
+                                            <i class='bx bx-chevron-down' ></i>
+                                        </div>
+                                    </div>
+                                    <div class="product__item">
+                                        <div class="">Product</div>
+                                        <div class="">Categories</div>
+                                        <div class="">Product Units</div>
+                                    </div>
+                                </div>
+                                <div class="sidebar__item">
+                                    <div class="sidebar__item-left">
+                                        <img src="./assets/css/img/quotation.svg" alt="">
+                                        <span>Quotation</span>
+                                    </div>
+                                    <div class="sidebar__item-right">
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="sidebar__item">
+                                        <div class="sidebar__item-left">
+                                            <img src="./assets/css/img/Setting.svg" alt="">
+                                            <span>Sestym</span>
+                                        </div>
+                                        <div class="sidebar__item-right">
+                                            <i class='bx bx-chevron-down' ></i>
+                                        </div>
+                                    </div>
+                                    <div class="sestym__item">
+                                        <div class="">File Manage</div>
+                                        <div class="">Email Template</div>
+                                        <div class="">Notifications</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sidebar__bottom">
+                                <i class='bx bx-menu'></i>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="groups col l-10">
+                        <div class="header__groups">
+                            <span class="">Dashboard</span>
+                            <span class="">/</span>
+                            <span class="">Account</span>
+                            <span class="">/</span>
+                            <span class="">Groups</span>
+                        </div>
+                        <div class="groups__main col l-12">
+                            <div class="groups__top">
+                                <div class="groups__top-main">
+                                    <div class="col l-6">
+                                        <p>Keyword</p>
+                                        <input type="text" placeholder="search by name, email or phone">
+                                    </div>
+                                    <div class="col l-6">
+                                        <p>Permissions</p>
+                                        <div>
+                                            <input type="text">
+                                            <div>
+                                                <span>
+                                                    <p>Project View</p>
+                                                    <i class='bx bx-x' ></i>
+                                                </span>
+                                                <span>
+                                                    <p>Project Create</p>
+                                                    <i class='bx bx-x' ></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="groups__top-footer">
+                                    <span>
+                                        <p>Expand</p>
+                                        <i class='bx bx-chevron-down' ></i>
+                                    </span>
+                                    <div>
+                                        <i class='bx bx-search' ></i>
+                                        <button type="submit">SEARCH</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="group__bottom col l-12">
+                                <div class="group__bottom-header">
+                                    <h1>Group List</h1>
+                                    <div>
+                                        <p>Action:</p>
+                                        <span>
+                                            <p>choose action</p>
+                                            <i class='bx bx-chevron-down' ></i>
+                                        </span>
+                                        <span>
+                                            Go
+                                        </span>
+                                        <span>
+                                            <i class='bx bx-x' ></i>
+                                            <p>Add New</p>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="group__bottom-main">
+                                    <div class="group__bottom-title">
+                                        <div class="">
+                                          <div>
+                                              <input type="checkbox">
+                                          </div>
+                                        </div>
+                                        <div class="l-3">
+                                          <div>
+                                              <p>Name</p>
+                                          </div>
+                                        </div>
+                                        <div class="l-7">
+                                          <div>
+                                              <p>Groups</p>
+                                          </div>
+                                        </div>
+                                        <div class="l-2">
+                                          <div>
+                                              <p>Actions</p>
+                                          </div>
+                                        </div>
+                                    </div>
+                                    <div class="group__bottom-content">
+                                        <div>
+                                            <div>
+                                                <input type="checkbox" name="" id="">
+                                            </div>
+                                        </div>
+                                        <div class="l-3">
+                                            <div>
+                                                <h4>Staff</h4>
+                                            </div>
+                                        </div>
+                                        <div class="l-7">
+                                            <div>
+                                                <span>
+                                                    <p>Product View</p>
+                                                </span>
+                                                <span>
+                                                    <p>Product Update</p>
+                                                </span>
+                                                <span>
+                                                    <p>Product Creat</p>
+                                                </span>
+                                                <span>
+                                                    <p>Product Delete</p>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="l-2">
+                                            <div>
+                                                <i class='bx bx-cog' ></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="group__bottom-content">
+                                        <div>
+                                            <div>
+                                                <input type="checkbox" name="" id="">
+                                            </div>
+                                        </div>
+                                        <div class="l-3">
+                                            <div>
+                                                <h4>Accountant</h4>
+                                            </div>
+                                        </div>
+                                        <div class="l-7">
+                                            <div>
+                                                <span>
+                                                    <p>Product View</p>
+                                                </span>
+                                                <span>
+                                                    <p>Product Update</p>
+                                                </span>
+                                                <span>
+                                                    <p>Product Creat</p>
+                                                </span>
+                                                <span>
+                                                    <p>Product Delete</p>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="l-2">
+                                            <div>
+                                                <i class='bx bx-cog' ></i>
+                                            </div>
+                                        </div>
+                                    </div><div class="group__bottom-content">
+                                        <div>
+                                            <div>
+                                                <input type="checkbox" name="" id="">
+                                            </div>
+                                        </div>
+                                        <div class="l-3">
+                                            <div>
+                                                <h4>Head of Department</h4>
+                                            </div>
+                                        </div>
+                                        <div class="l-7">
+                                            <div>
+                                                <span>
+                                                    <p>Product View</p>
+                                                </span>
+                                                <span>
+                                                    <p>Product Update</p>
+                                                </span>
+                                                <span>
+                                                    <p>Product Creat</p>
+                                                </span>
+                                                <span>
+                                                    <p>Product Delete</p>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="l-2">
+                                            <div>
+                                                <i class='bx bx-cog' ></i>
+                                            </div>
+                                        </div>
+                                    </div><div class="group__bottom-content">
+                                        <div>
+                                            <div>
+                                                <input type="checkbox" name="" id="">
+                                            </div>
+                                        </div>
+                                        <div class="l-3">
+                                            <div>
+                                                <h4>Excecutor</h4>
+                                            </div>
+                                        </div>
+                                        <div class="l-7">
+                                            <div>
+                                                <span>
+                                                    <p>Product View</p>
+                                                </span>
+                                                <span>
+                                                    <p>Product Update</p>
+                                                </span>
+                                                <span>
+                                                    <p>Product Creat</p>
+                                                </span>
+                                                <span>
+                                                    <p>Product Delete</p>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="l-2">
+                                            <div>
+                                                <i class='bx bx-cog' ></i>
+                                            </div>
+                                        </div>
+                                    </div><div class="group__bottom-content">
+                                        <div>
+                                            <div>
+                                                <input type="checkbox" name="" id="">
+                                            </div>
+                                        </div>
+                                        <div class="l-3">
+                                            <div>
+                                                <h4>Ceo</h4>
+                                            </div>
+                                        </div>
+                                        <div class="l-7">
+                                            <div>
+                                                <span>
+                                                    <p>Product View</p>
+                                                </span>
+                                                <span>
+                                                    <p>Product Update</p>
+                                                </span>
+                                                <span>
+                                                    <p>Product Creat</p>
+                                                </span>
+                                                <span>
+                                                    <p>Product Delete</p>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="l-2">
+                                            <div>
+                                                <i class='bx bx-cog' ></i>
+                                            </div>
+                                        </div>
+                                    </div><div class="group__bottom-content">
+                                        <div>
+                                            <div>
+                                                <input type="checkbox" name="" id="">
+                                            </div>
+                                        </div>
+                                        <div class="l-3">
+                                            <div>
+                                                <h4>Perssident</h4>
+                                            </div>
+                                        </div>
+                                        <div class="l-7">
+                                            <div>
+                                                <span>
+                                                    <p>Product View</p>
+                                                </span>
+                                                <span>
+                                                    <p>Product Update</p>
+                                                </span>
+                                                <span>
+                                                    <p>Product Creat</p>
+                                                </span>
+                                                <span>
+                                                    <p>Product Delete</p>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="l-2">
+                                            <div>
+                                                <i class='bx bx-cog' ></i>
+                                            </div>
+                                        </div>
+                                    </div><div class="group__bottom-content">
+                                        <div>
+                                            <div>
+                                                <input type="checkbox" name="" id="">
+                                            </div>
+                                        </div>
+                                        <div class="l-3">
+                                            <div>
+                                                <h4>Vendor Management</h4>
+                                            </div>
+                                        </div>
+                                        <div class="l-7">
+                                            <div>
+                                                <span>
+                                                    <p>Product View</p>
+                                                </span>
+                                                <span>
+                                                    <p>Product Update</p>
+                                                </span>
+                                                <span>
+                                                    <p>Product Creat</p>
+                                                </span>
+                                                <span>
+                                                    <p>Product Delete</p>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="l-2">
+                                            <div>
+                                                <i class='bx bx-cog' ></i>
+                                            </div>
+                                        </div>
+                                    </div><div class="group__bottom-content">
+                                        <div>
+                                            <div>
+                                                <input type="checkbox" name="" id="">
+                                            </div>
+                                        </div>
+                                        <div class="l-3">
+                                            <div>
+                                                <h4>Editor</h4>
+                                            </div>
+                                        </div>
+                                        <div class="l-7">
+                                            <div>
+                                                <span>
+                                                    <p>Product View</p>
+                                                </span>
+                                                <span>
+                                                    <p>Product Update</p>
+                                                </span>
+                                                <span>
+                                                    <p>Product Creat</p>
+                                                </span>
+                                                <span>
+                                                    <p>Product Delete</p>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="l-2">
+                                            <div>
+                                                <i class='bx bx-cog' ></i>
+                                            </div>
+                                        </div>
+                                    </div><div class="group__bottom-content">
+                                        <div>
+                                            <div>
+                                                <input type="checkbox" name="" id="">
+                                            </div>
+                                        </div>
+                                        <div class="l-3">
+                                            <div>
+                                                <h4>Purchase Management</h4>
+                                            </div>
+                                        </div>
+                                        <div class="l-7">
+                                            <div>
+                                                <span>
+                                                    <p>Product View</p>
+                                                </span>
+                                                <span>
+                                                    <p>Product Update</p>
+                                                </span>
+                                                <span>
+                                                    <p>Product Creat</p>
+                                                </span>
+                                                <span>
+                                                    <p>Product Delete</p>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="l-2">
+                                            <div>
+                                                <i class='bx bx-cog' ></i>
+                                            </div>
+                                        </div>
+                                    </div><div class="group__bottom-content">
+                                        <div>
+                                            <div>
+                                                <input type="checkbox" name="" id="">
+                                            </div>
+                                        </div>
+                                        <div class="l-3">
+                                            <div>
+                                                <h4>IT Admin</h4>
+                                            </div>
+                                        </div>
+                                        <div class="l-7">
+                                            <div>
+                                                <span>
+                                                    <p>Product View</p>
+                                                </span>
+                                                <span>
+                                                    <p>Product Update</p>
+                                                </span>
+                                                <span>
+                                                    <p>Product Creat</p>
+                                                </span>
+                                                <span>
+                                                    <p>Product Delete</p>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="l-2">
+                                            <div>
+                                                <i class='bx bx-cog' ></i>
+                                            </div>
+                                        </div>
+                                </div>
+                                <div class="group__bottom-footer">
+                                    <p>1-10 of 100 items</p>
+                                    <span><i class='bx bx-chevron-left' ></i></span>
+                                    <span>
+                                        <p>1</p>
+                                    </span>                  
+                                    <span><p>...</p></span>
+                                    <span>
+                                        <p>4</p>
+                                    </span>
+                                    <span>
+                                        <p>5</p>
+                                    </span>
+                                    <span>
+                                        <p>6</p>
+                                    </span>
+                                    <span>
+                                        <p>7</p>
+                                    </span>
+                                    <span>
+                                        <p>8</p>
+                                    </span>
+                                    <span><p>...</p></span>
+                                    <span>
+                                        <p>50</p>
+                                    </span>
+                                    <span><i class='bx bx-chevron-right' ></i></span>
+                                    <span>
+                                        <p>10/page</p>
+                                        <i class='bx bx-chevron-down' ></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
